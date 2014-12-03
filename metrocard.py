@@ -10,11 +10,14 @@ print("RECHARGE   RIDES   REMAINDER\n")
 # Amount to recharge on the card
 add = 0
 
+#Best option to recharge
+should = 0
+
 # Rides after recharge
 rides = current/250
 
 # Least amount of money left in the card, out of all the options
-least_remainder = 0
+least_remainder = current+max
 
 
 while(add<=max):
